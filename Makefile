@@ -7,7 +7,7 @@ build:
 	pip install .
 
 test:
-	py.test tests
+	python -m pytest
 
 clean:
 	-del /s /q *.db
